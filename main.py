@@ -8,10 +8,6 @@ Palindromes
 """
 # Provide your solution here
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print("Test your functions by calling them here. Use different parameter values to test them with different scenarios.")
-
 """
 Example solutions from AI:
 """
@@ -40,4 +36,10 @@ Palindromes:
 #     # Print the multiplication table
 #     for i in range(1, rows + 1):
 #         result = i * number
-#         print(f"{i} * {number} = {result}")
+#         (f"{i} * {number} = {result}")
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print(is_palindrome("no"))
+    print(is_palindrome("non"))
